@@ -190,7 +190,7 @@ extension DragCardContainer {
 
 
 public class ContainerView: UIView {
-    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+    public override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
         return true
     }
 }
