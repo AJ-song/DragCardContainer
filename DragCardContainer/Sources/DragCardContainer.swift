@@ -133,7 +133,7 @@ public class DragCardContainer: UIView {
         return engine
     }()
     
-    internal lazy var containerView = ContainerView()
+    public lazy var containerView = ContainerView()
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
